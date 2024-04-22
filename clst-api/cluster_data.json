@@ -1,0 +1,612 @@
+{
+  "clusters": [
+    {
+      "uuid": "a1b2c3d4-e5f6-g7h8-i9j0-123456789abc",
+      "name": "Cluster1",
+      "performance_data": [
+        {
+          "timestamp": "2024-04-02T00:00:00",
+          "storage_performance": {
+            "disk_iops": {
+              "read": 480,
+              "write": 280
+            },
+            "disk_throughput": {
+              "read": "190 MB/s",
+              "write": "140 MB/s"
+            }
+          }
+        },
+        {
+          "timestamp": "2024-04-03T00:00:00",
+          "storage_performance": {
+            "disk_iops": {
+              "read": 520,
+              "write": 310
+            },
+            "disk_throughput": {
+              "read": "205 MB/s",
+              "write": "155 MB/s"
+            }
+          }
+        },
+        {
+          "timestamp": "2024-04-04T00:00:00",
+          "storage_performance": {
+            "disk_iops": {
+              "read": 560,
+              "write": 330
+            },
+            "disk_throughput": {
+              "read": "220 MB/s",
+              "write": "165 MB/s"
+            }
+          }
+        },
+        {
+          "timestamp": "2024-04-05T00:00:00",
+          "storage_performance": {
+            "disk_iops": {
+              "read": 590,
+              "write": 350
+            },
+            "disk_throughput": {
+              "read": "235 MB/s",
+              "write": "175 MB/s"
+            }
+          }
+        },
+        {
+          "timestamp": "2024-04-06T00:00:00",
+          "storage_performance": {
+            "disk_iops": {
+              "read": 630,
+              "write": 370
+            },
+            "disk_throughput": {
+              "read": "250 MB/s",
+              "write": "185 MB/s"
+            }
+          }
+        },
+        {
+          "timestamp": "2024-04-07T00:00:00",
+          "storage_performance": {
+            "disk_iops": {
+              "read": 670,
+              "write": 400
+            },
+            "disk_throughput": {
+              "read": "265 MB/s",
+              "write": "200 MB/s"
+            }
+          }
+        },
+        {
+          "timestamp": "2024-04-08T00:00:00",
+          "storage_performance": {
+            "disk_iops": {
+              "read": 700,
+              "write": 420
+            },
+            "disk_throughput": {
+              "read": "280 MB/s",
+              "write": "210 MB/s"
+            }
+          }
+        },
+
+        {
+          "timestamp": "2024-04-09T00:00:00",
+          "storage_performance": {
+            "disk_iops": {
+              "read": 520,
+              "write": 310
+            },
+            "disk_throughput": {
+              "read": "205 MB/s",
+              "write": "155 MB/s"
+            }
+          }
+        },
+        {
+          "timestamp": "2024-04-10T00:00:00",
+          "storage_performance": {
+            "disk_iops": {
+              "read": 560,
+              "write": 330
+            },
+            "disk_throughput": {
+              "read": "220 MB/s",
+              "write": "165 MB/s"
+            }
+          }
+        },
+        {
+          "timestamp": "2024-04-11T00:00:00",
+          "storage_performance": {
+            "disk_iops": {
+              "read": 600,
+              "write": 350
+            },
+            "disk_throughput": {
+              "read": "235 MB/s",
+              "write": "175 MB/s"
+            }
+          }
+        },
+        {
+          "timestamp": "2024-04-12T00:00:00",
+          "storage_performance": {
+            "disk_iops": {
+              "read": 640,
+              "write": 370
+            },
+            "disk_throughput": {
+              "read": "250 MB/s",
+              "write": "185 MB/s"
+            }
+          }
+        },
+        {
+          "timestamp": "2024-04-13T00:00:00",
+          "storage_performance": {
+            "disk_iops": {
+              "read": 680,
+              "write": 390
+            },
+            "disk_throughput": {
+              "read": "265 MB/s",
+              "write": "195 MB/s"
+            }
+          }
+        },
+        {
+          "timestamp": "2024-04-14T00:00:00",
+          "storage_performance": {
+            "disk_iops": {
+              "read": 720,
+              "write": 410
+            },
+            "disk_throughput": {
+              "read": "280 MB/s",
+              "write": "205 MB/s"
+            }
+          }
+        },
+        {
+          "timestamp": "2024-04-15T00:00:00",
+          "storage_performance": {
+            "disk_iops": {
+              "read": 760,
+              "write": 430
+            },
+            "disk_throughput": {
+              "read": "295 MB/s",
+              "write": "215 MB/s"
+            }
+          }
+        }
+      ],
+      "cluster_snapshot_policy": {
+        "cluster_name": "WebDataCluster",
+        "snapshot_schedule": {
+          "schedule_type": "fixed",
+          "snapshot_time": "01:00 AM",
+          "days_of_week": ["Monday", "Wednesday", "Friday"],
+          "time_zone": "Pacific/Auckland"
+        },
+        "retention_period": "14 days",
+        "notification_emails": ["admin@example.com", "ops@example.com"],
+        "enabled": true
+      }
+    },
+    {
+      "uuid": "b1c2d3e4-f5g6-h7i8-j9k0-23456789abcd",
+      "name": "Cluster2",
+      "performance_data": [
+        {
+          "timestamp": "2024-04-02T00:00:00",
+          "storage_performance": {
+            "disk_iops": {
+              "read": 500,
+              "write": 300
+            },
+            "disk_throughput": {
+              "read": "200 MB/s",
+              "write": "150 MB/s"
+            }
+          }
+        },
+        {
+          "timestamp": "2024-04-03T00:00:00",
+          "storage_performance": {
+            "disk_iops": {
+              "read": 550,
+              "write": 320
+            },
+            "disk_throughput": {
+              "read": "210 MB/s",
+              "write": "160 MB/s"
+            }
+          }
+        },
+        {
+          "timestamp": "2024-04-04T00:00:00",
+          "storage_performance": {
+            "disk_iops": {
+              "read": 600,
+              "write": 350
+            },
+            "disk_throughput": {
+              "read": "220 MB/s",
+              "write": "170 MB/s"
+            }
+          }
+        },
+        {
+          "timestamp": "2024-04-05T00:00:00",
+          "storage_performance": {
+            "disk_iops": {
+              "read": 620,
+              "write": 370
+            },
+            "disk_throughput": {
+              "read": "230 MB/s",
+              "write": "180 MB/s"
+            }
+          }
+        },
+        {
+          "timestamp": "2024-04-06T00:00:00",
+          "storage_performance": {
+            "disk_iops": {
+              "read": 630,
+              "write": 380
+            },
+            "disk_throughput": {
+              "read": "240 MB/s",
+              "write": "190 MB/s"
+            }
+          }
+        },
+        {
+          "timestamp": "2024-04-07T00:00:00",
+          "storage_performance": {
+            "disk_iops": {
+              "read": 640,
+              "write": 390
+            },
+            "disk_throughput": {
+              "read": "250 MB/s",
+              "write": "200 MB/s"
+            }
+          }
+        },
+        {
+          "timestamp": "2024-04-08T00:00:00",
+          "storage_performance": {
+            "disk_iops": {
+              "read": 650,
+              "write": 400
+            },
+            "disk_throughput": {
+              "read": "260 MB/s",
+              "write": "210 MB/s"
+            }
+          }
+        },
+
+        {
+          "timestamp": "2024-04-09T00:00:00",
+          "storage_performance": {
+            "disk_iops": {
+              "read": 510,
+              "write": 310
+            },
+            "disk_throughput": {
+              "read": "205 MB/s",
+              "write": "155 MB/s"
+            }
+          }
+        },
+        {
+          "timestamp": "2024-04-10T00:00:00",
+          "storage_performance": {
+            "disk_iops": {
+              "read": 540,
+              "write": 330
+            },
+            "disk_throughput": {
+              "read": "215 MB/s",
+              "write": "165 MB/s"
+            }
+          }
+        },
+        {
+          "timestamp": "2024-04-11T00:00:00",
+          "storage_performance": {
+            "disk_iops": {
+              "read": 570,
+              "write": 350
+            },
+            "disk_throughput": {
+              "read": "225 MB/s",
+              "write": "175 MB/s"
+            }
+          }
+        },
+        {
+          "timestamp": "2024-04-12T00:00:00",
+          "storage_performance": {
+            "disk_iops": {
+              "read": 600,
+              "write": 370
+            },
+            "disk_throughput": {
+              "read": "235 MB/s",
+              "write": "185 MB/s"
+            }
+          }
+        },
+        {
+          "timestamp": "2024-04-13T00:00:00",
+          "storage_performance": {
+            "disk_iops": {
+              "read": 630,
+              "write": 390
+            },
+            "disk_throughput": {
+              "read": "245 MB/s",
+              "write": "195 MB/s"
+            }
+          }
+        },
+        {
+          "timestamp": "2024-04-14T00:00:00",
+          "storage_performance": {
+            "disk_iops": {
+              "read": 660,
+              "write": 410
+            },
+            "disk_throughput": {
+              "read": "255 MB/s",
+              "write": "205 MB/s"
+            }
+          }
+        },
+        {
+          "timestamp": "2024-04-15T00:00:00",
+          "storage_performance": {
+            "disk_iops": {
+              "read": 690,
+              "write": 430
+            },
+            "disk_throughput": {
+              "read": "265 MB/s",
+              "write": "215 MB/s"
+            }
+          }
+        }
+      ],
+      "cluster_snapshot_policy": {
+        "cluster_name": "WebDataCluster",
+        "snapshot_schedule": {
+          "schedule_type": "recurring",
+          "snapshot_time": "03:30 AM",
+          "days_of_week": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "time_zone": "America/Los_Angeles"
+        },
+        "retention_period": "21 days",
+        "notification_emails": ["admin@example.com", "ops@example.com"],
+        "enabled": true
+      }
+    },
+    {
+      "uuid": "c1d2e3f4-g5h6-i7j8-k9l0-3456789abcde",
+      "name": "Cluster3",
+      "performance_data": [
+        {
+          "timestamp": "2024-04-02T00:00:00",
+          "storage_performance": {
+            "disk_iops": {
+              "read": 490,
+              "write": 295
+            },
+            "disk_throughput": {
+              "read": "195 MB/s",
+              "write": "145 MB/s"
+            }
+          }
+        },
+        {
+          "timestamp": "2024-04-03T00:00:00",
+          "storage_performance": {
+            "disk_iops": {
+              "read": 530,
+              "write": 320
+            },
+            "disk_throughput": {
+              "read": "210 MB/s",
+              "write": "160 MB/s"
+            }
+          }
+        },
+        {
+          "timestamp": "2024-04-04T00:00:00",
+          "storage_performance": {
+            "disk_iops": {
+              "read": 570,
+              "write": 345
+            },
+            "disk_throughput": {
+              "read": "225 MB/s",
+              "write": "170 MB/s"
+            }
+          }
+        },
+        {
+          "timestamp": "2024-04-05T00:00:00",
+          "storage_performance": {
+            "disk_iops": {
+              "read": 610,
+              "write": 370
+            },
+            "disk_throughput": {
+              "read": "240 MB/s",
+              "write": "180 MB/s"
+            }
+          }
+        },
+        {
+          "timestamp": "2024-04-06T00:00:00",
+          "storage_performance": {
+            "disk_iops": {
+              "read": 650,
+              "write": 395
+            },
+            "disk_throughput": {
+              "read": "255 MB/s",
+              "write": "190 MB/s"
+            }
+          }
+        },
+        {
+          "timestamp": "2024-04-07T00:00:00",
+          "storage_performance": {
+            "disk_iops": {
+              "read": 690,
+              "write": 420
+            },
+            "disk_throughput": {
+              "read": "270 MB/s",
+              "write": "200 MB/s"
+            }
+          }
+        },
+        {
+          "timestamp": "2024-04-08T00:00:00",
+          "storage_performance": {
+            "disk_iops": {
+              "read": 730,
+              "write": 445
+            },
+            "disk_throughput": {
+              "read": "285 MB/s",
+              "write": "210 MB/s"
+            }
+          }
+        },
+        {
+          "timestamp": "2024-04-09T00:00:00",
+          "storage_performance": {
+            "disk_iops": {
+              "read": 520,
+              "write": 310
+            },
+            "disk_throughput": {
+              "read": "210 MB/s",
+              "write": "160 MB/s"
+            }
+          }
+        },
+        {
+          "timestamp": "2024-04-10T00:00:00",
+          "storage_performance": {
+            "disk_iops": {
+              "read": 560,
+              "write": 330
+            },
+            "disk_throughput": {
+              "read": "220 MB/s",
+              "write": "165 MB/s"
+            }
+          }
+        },
+        {
+          "timestamp": "2024-04-11T00:00:00",
+          "storage_performance": {
+            "disk_iops": {
+              "read": 600,
+              "write": 350
+            },
+            "disk_throughput": {
+              "read": "230 MB/s",
+              "write": "170 MB/s"
+            }
+          }
+        },
+        {
+          "timestamp": "2024-04-12T00:00:00",
+          "storage_performance": {
+            "disk_iops": {
+              "read": 640,
+              "write": 370
+            },
+            "disk_throughput": {
+              "read": "240 MB/s",
+              "write": "175 MB/s"
+            }
+          }
+        },
+        {
+          "timestamp": "2024-04-13T00:00:00",
+          "storage_performance": {
+            "disk_iops": {
+              "read": 680,
+              "write": 390
+            },
+            "disk_throughput": {
+              "read": "250 MB/s",
+              "write": "180 MB/s"
+            }
+          }
+        },
+        {
+          "timestamp": "2024-04-14T00:00:00",
+          "storage_performance": {
+            "disk_iops": {
+              "read": 720,
+              "write": 410
+            },
+            "disk_throughput": {
+              "read": "260 MB/s",
+              "write": "185 MB/s"
+            }
+          }
+        },
+        {
+          "timestamp": "2024-04-15T00:00:00",
+          "storage_performance": {
+            "disk_iops": {
+              "read": 760,
+              "write": 430
+            },
+            "disk_throughput": {
+              "read": "270 MB/s",
+              "write": "190 MB/s"
+            }
+          }
+        }
+      ],
+      "cluster_snapshot_policy": {
+        "cluster_name": "WebDataCluster",
+        "snapshot_schedule": {
+          "schedule_type": "recurring",
+          "snapshot_time": "02:00 AM",
+          "days_of_week": ["Monday", "Wednesday", "Friday"],
+          "time_zone": "America/Los_Angeles"
+        },
+        "retention_period": "30 days",
+        "delete_policy": {
+          "delete_after": "45 days",
+          "delete_on": "Sunday",
+          "delete_time": "03:00 AM",
+          "time_zone": "America/Los_Angeles"
+        },
+        "notification_emails": ["admin@example.com", "ops@example.com"],
+        "enabled": true
+      }
+    }
+  ]
+}
