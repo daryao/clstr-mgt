@@ -10,7 +10,6 @@ import {
 } from 'recharts'
 
 const IOPSChart = ({ data }) => {
-    console.log(data)
     return (
         <ResponsiveContainer width="100%" height={300}>
             <LineChart data={data}>

@@ -20,7 +20,7 @@ router.get('/api/clusters/:id', ({ params }) => {
   return cluster_data.default.clusters.find(({ uuid }: { uuid: string }) => uuid === cluster_uuid)
 })
 
-router.put('/api/clusters/:id/snapshot-policy', ({ params }) => {
+router.get('/api/clusters/:id/snapshot-policy', ({ params }) => {
   let cluster_uuid: string = params.id
   return cluster_data.default.clusters.find(({ uuid }: { uuid: string }) => uuid === cluster_uuid)
     ?.cluster_snapshot_policy
